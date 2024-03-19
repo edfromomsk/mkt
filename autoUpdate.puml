@@ -1,0 +1,35 @@
+@startuml
+skinparam DefaultFontColor #7fafe1
+skinparam BackgroundColor #24272b
+skinparam roundcorner 20
+
+skinparam sequence {
+    ArrowColor #7fafe1
+    LifeLineBorderColor #7fafe1 
+    LifeLineBackgroundColor #7fafe1
+    ParticipantBorderColor #7fafe1 
+    ParticipantBackgroundColor #7fafe1 
+    ParticipantFontColor white
+
+    ActorBorderColor #7fafe1 
+    ActorBackgroundColor #7fafe1
+}
+autonumber
+
+participant nomenclatures as db
+participant "reference_cards_buffer" as kafka
+participant "Воркер наложений" as worker
+
+db -> kafka: trigger откидывает в очередь измененные КТ
+activate db
+activate kafka
+worker -> kafka: слушает топик
+activate worker
+kafka --> worker: получает КТ и проверяет позможность обновления
+deactivate kafka
+worker -> db: обновляет КТ
+deactivate db
+deactivate worker
+
+
+@enduml

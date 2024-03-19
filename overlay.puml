@@ -1,0 +1,46 @@
+@startuml
+skinparam DefaultFontColor #7fafe1
+skinparam BackgroundColor #24272b
+skinparam roundcorner 20
+
+skinparam sequence {
+    ArrowColor #7fafe1
+    LifeLineBorderColor #7fafe1 
+    LifeLineBackgroundColor #7fafe1
+    ParticipantBorderColor #7fafe1 
+    ParticipantBackgroundColor #7fafe1 
+    ParticipantFontColor white
+
+    ActorBorderColor #7fafe1 
+    ActorBackgroundColor #7fafe1
+}
+autonumber
+participant "Админка контента" as admin
+participant "content-card-reference-cards" as ccrc
+
+admin -> ccrc: запрос наложения
+
+activate ccrc
+ccrc -> db: сбор КТ
+activate db
+autonumber stop
+db --> ccrc
+autonumber resume
+
+ccrc -> db: наложение ЭКТ на КТ
+
+deactivate admin
+db -> kafka: content-card-batch
+deactivate db
+activate kafka
+
+ccrc -> kafka: nmid-rcid
+deactivate kafka
+
+
+
+
+
+deactivate ccrc
+
+@enduml

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="209px" preserveAspectRatio="none" style="width:845px;height:209px;background:#24272B;" version="1.1" viewBox="0 0 845 209" width="845px" zoomAndPan="magnify"><defs/><g><rect fill="#7FAFE1" height="87.9316" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="58" y="67.7988"/><rect fill="#7FAFE1" height="58.6211" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="384" y="67.7988"/><rect fill="#7FAFE1" height="58.6211" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="760" y="97.1094"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="63" x2="63" y1="36.4883" y2="173.7305"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="389" x2="389" y1="36.4883" y2="173.7305"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="765" x2="765" y1="36.4883" y2="173.7305"/><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="116" x="5" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="12" y="25.5352">nomenclatures</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="116" x="5" y="172.7305"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="102" x="12" y="193.2656">nomenclatures</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="172" x="303" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="310" y="25.5352">reference_cards_buffer</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="172" x="303" y="172.7305"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="310" y="193.2656">reference_cards_buffer</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="148" x="691" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="698" y="25.5352">Воркер наложений</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="148" x="691" y="172.7305"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="698" y="193.2656">Воркер наложений</text><rect fill="#7FAFE1" height="87.9316" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="58" y="67.7988"/><rect fill="#7FAFE1" height="58.6211" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="384" y="67.7988"/><rect fill="#7FAFE1" height="58.6211" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="760" y="97.1094"/><polygon fill="#7FAFE1" points="372,63.7988,382,67.7988,372,71.7988,376,67.7988" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="68" x2="378" y1="67.7988" y2="67.7988"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="75" y="63.0566">1</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="88" y="63.0566">trigger откидывает в очередь измененные КТ</text><polygon fill="#7FAFE1" points="405,93.1094,395,97.1094,405,101.1094,401,97.1094" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="399" x2="759" y1="97.1094" y2="97.1094"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="411" y="92.3672">2</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="424" y="92.3672">слушает топик</text><polygon fill="#7FAFE1" points="748,122.4199,758,126.4199,748,130.4199,752,126.4199" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="389" x2="754" y1="126.4199" y2="126.4199"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="396" y="121.6777">3</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="329" x="409" y="121.6777">получает КТ и проверяет позможность обновления</text><polygon fill="#7FAFE1" points="74,151.7305,64,155.7305,74,159.7305,70,155.7305" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="68" x2="764" y1="155.7305" y2="155.7305"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="80" y="150.9883">4</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="93" y="150.9883">обновляет КТ</text><!--MD5=[82fe9775e3576ad1f9cd364551f71389]
+@startuml
+skinparam DefaultFontColor #7fafe1
+skinparam BackgroundColor #24272b
+skinparam roundcorner 20
+
+skinparam sequence {
+    ArrowColor #7fafe1
+    LifeLineBorderColor #7fafe1 
+    LifeLineBackgroundColor #7fafe1
+    ParticipantBorderColor #7fafe1 
+    ParticipantBackgroundColor #7fafe1 
+    ParticipantFontColor white
+
+    ActorBorderColor #7fafe1 
+    ActorBackgroundColor #7fafe1
+}
+autonumber
+
+participant nomenclatures as db
+participant "reference_cards_buffer" as kafka
+participant "Воркер наложений" as worker
+
+db -> kafka: trigger откидывает в очередь измененные КТ
+activate db
+activate kafka
+worker -> kafka: слушает топик
+activate worker
+kafka - -> worker: получает КТ и проверяет позможность обновления
+deactivate kafka
+worker -> db: обновляет КТ
+deactivate db
+deactivate worker
+
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 MSK 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>
