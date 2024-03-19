@@ -1,1 +1,41 @@
-test
+@startuml
+skinparam DefaultFontColor #7fafe1
+skinparam BackgroundColor #24272b
+skinparam roundcorner 20
+
+skinparam sequence {
+    ArrowColor #7fafe1
+    LifeLineBorderColor #7fafe1 
+    LifeLineBackgroundColor #7fafe1
+    ParticipantBorderColor #7fafe1 
+    ParticipantBackgroundColor #7fafe1 
+    ParticipantFontColor white
+
+    ActorBorderColor #7fafe1 
+    ActorBackgroundColor #7fafe1
+}
+autonumber
+
+
+participant "Админка контента" as admin
+participant "content-card-reference-cards" as ccrc
+
+admin -> ccrc: запрос на создание ЭКТ
+activate admin
+activate ccrc
+ccrc -> db: сбор КТ
+activate db
+db --> ccrc: raw json
+
+ccrc --> admin: raw json
+admin -> ccrc: корректировка
+deactivate admin
+ccrc -> db: card.json
+
+deactivate db
+ccrc -> basket: card.json
+
+ccrc ->> kafka: reference-card-actions
+deactivate ccrc
+
+@enduml
