@@ -17,6 +17,7 @@ skinparam sequence {
 autonumber
 
 
+
 participant "Админка контента" as admin
 participant "content-card-reference-cards" as ccrc
 
