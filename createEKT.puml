@@ -27,14 +27,20 @@ activate db
 db --> ccrc: raw json
 
 ccrc --> admin: raw json
-admin -> ccrc: корректировка
+admin -> ccrc: настройка характеристик
+ccrc -> db: сохранение хар-к в БД (выделение offer_id)
+db --> ccrc: card.json без фото
+ccrc --> admin: card.json без фото
+admin -> ccrc: добавление фото
+ccrc -> render: отправляем фотки на рендер
+render --> ccrc: получаем подтверждение
+ccrc --> admin: сообщаем об успешной обработке
+admin -> ccrc: сохраняем изменения
 deactivate admin
-ccrc -> db: card.json
-
+ccrc -> db: кладем card.json в БД
+db --> ccrc: card.json по ЭКТ (1тип)
 deactivate db
-ccrc -> basket: card.json
-
-ccrc ->> kafka: reference-card-actions
+ccrc -> потребители: оповещение потребителей
 deactivate ccrc
 
 @enduml

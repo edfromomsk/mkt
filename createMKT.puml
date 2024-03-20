@@ -15,21 +15,23 @@ skinparam sequence {
     ActorBackgroundColor #7fafe1
 }
 autonumber
+
 participant "Админка контента" as admin
 participant "content-card-reference-cards" as ccrc
-admin -> ccrc: запрос наложения
+
+admin -> ccrc: запрос на создание ЭКТ
+activate admin
 activate ccrc
 ccrc -> db: сбор КТ
 activate db
-autonumber stop
-db --> ccrc
-autonumber resume
-ccrc -> db: наложение ЭКТ на КТ
+db --> ccrc: raw json
+
+ccrc --> admin: raw json
+admin -> ccrc: настройка характеристик
 deactivate admin
-db -> kafka: content-card-batch
+ccrc -> db: кладем в бд card.json
+db --> ccrc: запись успешна
 deactivate db
-activate kafka
-ccrc -> kafka: nmid-rcid
-deactivate kafka
+ccrc -> Потребители: Оповещаем потребителей
 deactivate ccrc
 @enduml

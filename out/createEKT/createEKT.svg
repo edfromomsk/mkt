@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="326px" preserveAspectRatio="none" style="width:615px;height:326px;background:#24272B;" version="1.1" viewBox="0 0 615 326" width="615px" zoomAndPan="magnify"><defs/><g><rect fill="#7FAFE1" height="117.2422" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="73" y="67.7988"/><rect fill="#7FAFE1" height="205.1738" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="284" y="67.7988"/><rect fill="#7FAFE1" height="146.5527" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="472" y="97.1094"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="78" x2="78" y1="36.4883" y2="290.9727"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="289" x2="289" y1="36.4883" y2="290.9727"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="477" x2="477" y1="36.4883" y2="290.9727"/><line style="stroke:#7FAFE1;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="556" x2="556" y1="36.4883" y2="290.9727"/><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="146" x="5" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="12" y="25.5352">Админка контента</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="146" x="5" y="289.9727"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="12" y="310.5078">Админка контента</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="222" x="178" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="185" y="25.5352">content-card-reference-cards</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="222" x="178" y="289.9727"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="185" y="310.5078">content-card-reference-cards</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="32" x="461" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="468" y="25.5352">db</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="32" x="461" y="289.9727"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="468" y="310.5078">db</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="106" x="503" y="5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="510" y="25.5352">Потребители</text><rect fill="#7FAFE1" height="30.4883" rx="10" ry="10" style="stroke:#7FAFE1;stroke-width:0.5;" width="106" x="503" y="289.9727"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="510" y="310.5078">Потребители</text><rect fill="#7FAFE1" height="117.2422" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="73" y="67.7988"/><rect fill="#7FAFE1" height="205.1738" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="284" y="67.7988"/><rect fill="#7FAFE1" height="146.5527" style="stroke:#7FAFE1;stroke-width:1.0;" width="10" x="472" y="97.1094"/><polygon fill="#7FAFE1" points="272,63.7988,282,67.7988,272,71.7988,276,67.7988" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="83" x2="278" y1="67.7988" y2="67.7988"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="90" y="63.0566">1</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="103" y="63.0566">запрос на создание ЭКТ</text><polygon fill="#7FAFE1" points="460,93.1094,470,97.1094,460,101.1094,464,97.1094" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="294" x2="466" y1="97.1094" y2="97.1094"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="301" y="92.3672">2</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="314" y="92.3672">сбор КТ</text><polygon fill="#7FAFE1" points="305,122.4199,295,126.4199,305,130.4199,301,126.4199" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="299" x2="471" y1="126.4199" y2="126.4199"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="311" y="121.6777">3</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="324" y="121.6777">raw json</text><polygon fill="#7FAFE1" points="94,151.7305,84,155.7305,94,159.7305,90,155.7305" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="88" x2="283" y1="155.7305" y2="155.7305"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="100" y="150.9883">4</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="113" y="150.9883">raw json</text><polygon fill="#7FAFE1" points="272,181.041,282,185.041,272,189.041,276,185.041" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="78" x2="278" y1="185.041" y2="185.041"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="85" y="180.2988">5</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="98" y="180.2988">настройка характеристик</text><polygon fill="#7FAFE1" points="460,210.3516,470,214.3516,460,218.3516,464,214.3516" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="294" x2="466" y1="214.3516" y2="214.3516"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="301" y="209.6094">6</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="314" y="209.6094">кладем в бд card.json</text><polygon fill="#7FAFE1" points="305,239.6621,295,243.6621,305,247.6621,301,243.6621" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="299" x2="476" y1="243.6621" y2="243.6621"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="311" y="238.9199">7</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="324" y="238.9199">запись успешна</text><polygon fill="#7FAFE1" points="544,268.9727,554,272.9727,544,276.9727,548,272.9727" style="stroke:#7FAFE1;stroke-width:1.0;"/><line style="stroke:#7FAFE1;stroke-width:1.0;" x1="289" x2="550" y1="272.9727" y2="272.9727"/><text fill="#7FAFE1" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="296" y="268.2305">8</text><text fill="#7FAFE1" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="309" y="268.2305">Оповещаем потребителей</text><!--MD5=[3c7d7e303dabb6285e567c415f527abb]
+@startuml
+skinparam DefaultFontColor #7fafe1
+skinparam BackgroundColor #24272b
+skinparam roundcorner 20
+
+skinparam sequence {
+    ArrowColor #7fafe1
+    LifeLineBorderColor #7fafe1 
+    LifeLineBackgroundColor #7fafe1
+    ParticipantBorderColor #7fafe1 
+    ParticipantBackgroundColor #7fafe1 
+    ParticipantFontColor white
+
+    ActorBorderColor #7fafe1 
+    ActorBackgroundColor #7fafe1
+}
+autonumber
+
+participant "Админка контента" as admin
+participant "content-card-reference-cards" as ccrc
+
+admin -> ccrc: запрос на создание ЭКТ
+activate admin
+activate ccrc
+ccrc -> db: сбор КТ
+activate db
+db - -> ccrc: raw json
+
+ccrc - -> admin: raw json
+admin -> ccrc: настройка характеристик
+deactivate admin
+ccrc -> db: кладем в бд card.json
+db - -> ccrc: запись успешна
+deactivate db
+ccrc -> Потребители: Оповещаем потребителей
+deactivate ccrc
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 20:01:30 MSK 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>
