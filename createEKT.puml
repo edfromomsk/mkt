@@ -33,14 +33,16 @@ db --> ccrc: card.json без фото
 ccrc --> admin: card.json без фото
 admin -> ccrc: добавление фото
 ccrc -> render: отправляем фотки на рендер
+activate render
 render --> ccrc: получаем подтверждение
+deactivate render
 ccrc --> admin: сообщаем об успешной обработке
 admin -> ccrc: сохраняем изменения
 deactivate admin
 ccrc -> db: кладем card.json в БД
-db --> ccrc: card.json по ЭКТ (1тип)
+db --> ccrc: получаем подтверждение
 deactivate db
-ccrc -> потребители: оповещение потребителей
+ccrc -> потребители: оповещаем потребителей
 deactivate ccrc
 
 @enduml
