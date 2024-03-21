@@ -20,7 +20,7 @@ participant nomenclatures as db
 participant "reference_cards_buffer" as kafka
 participant "Воркер наложений" as worker
 
-db -> kafka: trigger откидывает в очередь измененные КТ
+db -> kafka: trigger кладет в очередь измененные КТ
 activate db
 activate kafka
 worker -> kafka: слушает топик
