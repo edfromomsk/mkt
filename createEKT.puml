@@ -36,7 +36,7 @@ ccrc -> render: отправляем фотки на рендер
 activate render
 render --> ccrc: получаем подтверждение
 deactivate render
-ccrc --> admin: сообщаем об успешной обработке
+ccrc --> admin: сообщаем об успешном рендере
 admin -> ccrc: сохраняем изменения
 deactivate admin
 ccrc -> db: кладем card.json в БД
