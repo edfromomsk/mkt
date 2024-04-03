@@ -29,7 +29,7 @@ db --> ccrc: raw json
 ccrc --> admin: raw json
 admin -> ccrc: настройка характеристик
 deactivate admin
-ccrc -> db: кладем в бд card.json
+ccrc -> db: rcId.json
 db --> ccrc: запись успешна
 deactivate db
 ccrc -> Потребители: Оповещаем потребителей

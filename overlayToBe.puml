@@ -15,27 +15,41 @@ skinparam sequence {
     ActorBackgroundColor #7fafe1
 }
 autonumber
-
+participant "Админка контента" as admin
+participant "content-card-reference-cards" as ccrc
 participant nomenclatures as db
 participant "reference_card_2_buffer" as kafka
 participant "Воркер Наложений" as worker
 
-db -> kafka: trigger кладет в буффер измененные КТ
+admin -> ccrc: запрос наложения
+activate ccrc
+ccrc -> db: сбор КТ
 activate db
+autonumber stop
+db --> ccrc
+autonumber resume
+
+
+
+
+ccrc -> kafka: кладет в буффер найденные КТ
+
 activate kafka
 worker -> kafka: слушает буффер
 activate worker
+autonumber stop
 kafka --> worker: получает КТ и проверяет позможность обновления
 deactivate kafka
 autonumber stop
+autonumber resume
 worker -> db: обновляет КТ
+autonumber stop
 deactivate worker
 db -> update_buffer: rc_id != 0 and offer_id != 0
 deactivate db
 update_buffer -> kafka_producer: rc_id != 0 and offer_id != 0
 autonumber resume
 kafka_producer -> content_card_batch: добавляет в собранную КТ RC-модель
-
 
 
 @enduml
